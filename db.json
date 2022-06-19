@@ -1,280 +1,123 @@
 {
-  "caso": [
+  "livros": [
     {
       "id": "1",
-      "num_caso": "111",
-      "nome_caso": "Caso 1",
-      "data": "13/10/2021",
-      "status": "Quarentena"
+      "num_livro": "1212",
+      "nome_livro": "Como programar em java",
+      "autor":"Deitel",
+      "data_cadastro": "19/06/2022",
+      "descricao":"Java: como programar, 10ª edição, fornece uma introdução clara, simples, envolvente e divertida à programação Java com ênfase inicial em objetos. Destaques incluem: rica cobertura dos fundamentos com exemplos reais; apresentação com ênfase inicial em classes e objetos; uso com Java™ SE 7, Java™ SE 8 ou ambos; Java™ SE 8 abordado em seções modulares opcionais; lambdas, fluxos e interfaces funcionais usando métodos padrão e estáticos do Java SE 8; Swing e GUI do JavaFX: elementos gráficos e multimídia; conjunto de exercícios ""Fazendo a diferença""; tratamento de exceções integrado; arquivos, fluxos e serialização de objetos; concorrência para melhor desempenho com multiprocessamento; o livro contém o conteúdo principal para cursos introdutórios; outros tópicos: recursão, pesquisa, classificação, coleções genéricas, estruturas de dados, multithreading, banco de dados (JDBC ™ e JPA).",
+      "tipo":"Computação",
+      "quantidade_estoque_venda": "3",
+      "quantidade_estoque_aluguel": "5",
+      "valor_venda":"341,65",
+      "valor_aluguel":"5,00"
     },
     {
       "id": "2",
-      "num_caso": "222",
-      "nome_caso": "Caso 2",
-      "data": "13/10/2021",
-      "status": "Pendente"
+      "num_livro": "1313",
+      "nome_livro": "Algoritmos - Teoria e Prática",
+      "autor":"Cormen ",
+      "data_cadastro": "19/06/2022",
+      "descricao":"Este livro apresenta um texto abrangente sobre o moderno estudo de algoritmos para computadores. É uma obra clássica, cuja primeira edição tornou-se amplamente adotada nas melhores universidades em todo o mundo, bem como padrão de referência para profissionais da área. Nesta terceira edição, totalmente revista e ampliada, as mudanças são extensivas e incluem novos capítulos, exercícios e problemas; revisão de pseudocódigos e um estilo de redação mais claro.A edição brasileira conta ainda com nova tradução e revisão técnica do Prof. Arnaldo Mandel, do Departamento de Ciência da Computação do Instituto de Matemática e Estatística da Universidade de São Paulo. Elaborado para ser ao mesmo tempo versátil e completo, o livro atende alunos dos cursos de graduação e pós-graduação em algoritmos ou estruturas de dados.",
+      "tipo":"Computação",
+      "quantidade_estoque_venda": "5",
+      "quantidade_estoque_aluguel": "5",
+      "valor_venda":"271,65",
+      "valor_aluguel":"5,00"
     },
     {
       "id": "3",
-      "num_caso": "333",
-      "nome_caso": "Caso 3",
-      "data": "13/10/2021",
-      "status": "Análise"
+      "num_livro": "1314",
+      "nome_livro": "Refactoring: Improving the Design of Existing Code",
+      "autor":"Cormen ",
+      "descricao":"Este livro apresenta um texto abrangente sobre o moderno estudo de algoritmos para computadores. É uma obra clássica, cuja primeira edição tornou-se amplamente adotada nas melhores universidades em todo o mundo, bem como padrão de referência para profissionais da área. Nesta terceira edição, totalmente revista e ampliada, as mudanças são extensivas e incluem novos capítulos, exercícios e problemas; revisão de pseudocódigos e um estilo de redação mais claro.A edição brasileira conta ainda com nova tradução e revisão técnica do Prof. Arnaldo Mandel, do Departamento de Ciência da Computação do Instituto de Matemática e Estatística da Universidade de São Paulo. Elaborado para ser ao mesmo tempo versátil e completo, o livro atende alunos dos cursos de graduação e pós-graduação em algoritmos ou estruturas de dados.",
+      "tipo":"Computação",
+      "quantidade_estoque_venda": "5",
+      "quantidade_estoque_aluguel": "5",
+      "valor_venda":"298,76",
+      "data_criacao": "19/06/2022",
+      "data_atualizacao": ""      
     }
+    
   ],
-  "chaves": [
+  "cliente": [
     {
       "id": "1",
       "nome_completo": "João Silva",
-      "cargo": "Gerente",
-      "setor": "Jurídico",
-      "numero_banco": "001",
-      "nome_banco": "Banco de Minas",
-      "estado": "Ativa",
-      "Data": "07/09/2021",
-      "CPF": "11111111111",
-      "RG": "MG12987635",
-      "DDD": "31",
-      "Telefone": "33333333",
-      "Email": "joao@banco.com"
+      "estado": "Ativo",
+      "cpf": "11111111111",
+      "rg": "MG12987635",
+      "ddd": "31",
+      "relefone": "33333333",
+      "email": "joao@gmail.com",
+      "data_criacao": "19/06/2022",
+      "data_atualizacao": ""
     },
     {
       "id": "2",
       "nome_completo": "José Pereira",
-      "cargo": "Gerente",
-      "setor": "Jurídico",
-      "numero_banco": "001",
-      "nome_banco": "Banco de Goiás",
-      "estado": "Inválida",
-      "Data": "07/09/2021",
-      "CPF": "22222222222",
-      "RG": "MG12987635",
-      "DDD": "31",
-      "Telefone": "33333333",
-      "Email": "jose@banco.com"
+      "estado": "Inativo",
+      "cpf": "22222222222",
+      "rg": "MG12987635",
+      "ddd": "31",
+      "telefone": "33333333",
+      "email": "jose@gmail.com",
+      "data_criacao": "19/06/2022",
+      "data_atualizacao": ""
     },
     {
       "id": "3",
       "nome_completo": "Maria Tereza",
-      "cargo": "Gerente",
-      "setor": "Jurídico",
-      "numero_banco": "001",
-      "nome_banco": "Banco de Salvador",
-      "estado": "Negada",
-      "Data": "07/09/2021",
-      "CPF": "33333333333",
-      "RG": "MG12987635",
-      "DDD": "31",
-      "Telefone": "33333333",
-      "Email": "maria@banco.com"
+      "estado": "Ativo",
+      "cpf": "33333333333",
+      "rg": "MG12987635",
+      "ddd": "31",
+      "telefone": "33333333",
+      "email": "mariatereza@gmail.com",
+      "data_criacao": "19/06/2022",
+      "data_atualizacao": ""
     },
     {
       "id": "4",
       "nome_completo": "Maria Jose",
-      "cargo": "Gerente",
-      "setor": "Jurídico",
-      "numero_banco": "001",
-      "nome_banco": "Banco Belo",
-      "estado": "Ativa",
-      "Data": "07/09/2021",
-      "CPF": "33333333333",
-      "RG": "MG12987635",
-      "DDD": "31",
-      "Telefone": "33333333",
-      "Email": "maria_j@banco.com"
-    }
-  ],
-  "contatos": [
-    {
-      "id": "1",
-      "nome": "Banco de Minas",
-      "email": "banco@email.com",
-      "cnpj": "11.111.111/1111-11",
-      "logradouro": "Rua 1",
-      "cidade": "Belo Horizonte",
-      "uf": "MG",
-      "cep": "11.111-111",
+      "estado": "Ativo",
+      "cpf": "33333333333",
+      "rg": "MG12987635",
       "ddd": "31",
-      "telefone": "1111-1111"
+      "telefone": "33333333",
+      "email": "mariajose@gmail.com",
+      "data_criacao": "19/06/2022",
+      "data_atualizacao": ""
+    }],
+    "aluguel": [
+      {
+        "id": "1",
+        "id_livro": "1",
+        "id_cliente": "2",
+        "data_aluguel": "20/06/2022",
+        "dias":""
+      },
+      {
+        "id": "2",
+        "id_livro": "2",
+        "id_cliente": "3",
+        "data_aluguel": "20/06/2022",
+        "dias":""
+      }    
+  ],
+  "venda": [
+    {
+      "id": "1",
+      "id_livro": "3",
+      "id_cliente": "2",
+      "data_venda": "20/06/2022"
     },
     {
       "id": "2",
-      "nome": "Maria Silva",
-      "email": "maria@email.com",
-      "cpf": "222.222.222-22",
-      "rg": "MG-22.222.222",
-      "logradouro": "Rua 2",
-      "cidade": "Belo Horizonte",
-      "uf": "MG",
-      "cep": "22.222-222",
-      "ddd": "31",
-      "telefone": "2222-2222"
-    }
-  ],
-  "oficios_recebidos": [
-    {
-      "id": "1",
-      "num_caso": "11",
-      "num_oficio": "111",
-      "data_oficio": "13/10/2021",
-      "data_recebimento": "13/10/2021",
-      "assunto": "Assunto 1",
-      "destinatario": "Destinatário 1",
-      "orgao_remetente": "Remetente 1",
-      "observacoes": "Observações 1",
-      "movimentacoes": "Movimentação 1",
-      "desfecho": "Desfecho 1"
-    },
-    {
-      "num_caso": "3",
-      "num_oficio": "33",
-      "data_oficio": "2021-10-13",
-      "data_recebimento": "2021-10-13",
-      "assunto": "Assunto 3",
-      "destinatario": "Destinatário 3",
-      "orgao_remetente": "Remetente 3",
-      "observacoes": "Observação 3",
-      "movimentacoes": "Movimentação 3",
-      "desfecho": "Desfecho 3",
-      "id": "qEJYS8d"
-    }
-  ],
-  "oficios_expedidos": [
-    {
-      "id": "1",
-      "num_caso": "111",
-      "num_oficio": "1111",
-      "id_oficio": "11",
-      "data": "13/10/2021",
-      "assunto": "Assunto 1",
-      "destinatario": "Jose 1",
-      "logradouro": "Rua 1",
-      "cidade": "Belo Horizonte",
-      "uf": "MG",
-      "cep": "11.111-111",
-      "assinatura": "Assinatura 1",
-      "resposta": "Resposta 1"
-    },
-    {
-      "id": "2",
-      "num_caso": "222",
-      "num_oficio": "2222",
-      "id_oficio": "22",
-      "data": "13/10/2021",
-      "assunto": "Assunto 2",
-      "destinatario": "Jose 2",
-      "logradouro": "Rua 2",
-      "cidade": "Belo Horizonte",
-      "uf": "MG",
-      "cep": "22.222-222",
-      "assinatura": "Assinatura 2",
-      "resposta": "Resposta 2"
-    },
-    {
-      "num_caso": "8",
-      "num_oficio": "88",
-      "id_oficio": "888",
-      "data": "2021-10-13",
-      "assunto": "Assunto 8",
-      "destinatario": "Nome 8",
-      "logradouro": "Rua 8",
-      "cidade": "Belo Horinzonte",
-      "uf": "MG",
-      "cep": "88.888-888",
-      "assinatura": "Assinatura 8",
-      "resposta": "Resposta 8",
-      "id": "36rbcvZ"
-    },
-    {
-      "num_caso": "5",
-      "num_oficio": "55",
-      "id_oficio": "555",
-      "data": "2021-10-13",
-      "assunto": "Assunto 5",
-      "destinatario": "Destinatário 5",
-      "logradouro": "Rua 5",
-      "cidade": "Belo Horizonte",
-      "uf": "MG",
-      "cep": "55.555-555",
-      "assinatura": "Assinatura 5",
-      "resposta": "Resposta 5",
-      "id": "rzytMb2"
-    },
-    {
-      "num_caso": "99",
-      "num_oficio": "999",
-      "id_oficio": "999",
-      "data": "2021-10-13",
-      "assunto": "Assunto 99",
-      "destinatario": "Desti 99",
-      "logradouro": "Rua 99",
-      "cidade": "BH",
-      "uf": "MG",
-      "cep": "99.999-99",
-      "assinatura": "Assinatura 99",
-      "resposta": "Resposta 99",
-      "id": "A8KCNpm"
-    }
-  ],
-  "CCS": [
-    {
-      "id": "1",
-      "num_caso": "1",
-      "num_ccs": "11",
-      "num_conta": "11111",
-      "data_inicio": "13/10/2021",
-      "data_fim": "13/10/2021",
-      "nome_investigado": "Investigado 1",
-      "nome_banco": "Banco 1",
-      "cpf": "111.111.111-11",
-      "cnpj": "11.111.111/1111-11"
-    },
-    {
-      "id": "2",
-      "num_caso": "2",
-      "num_ccs": "22",
-      "num_conta": "22222",
-      "data_inicio": "13/10/2021",
-      "data_fim": "13/10/2021",
-      "nome_investigado": "Investigado 2",
-      "nome_banco": "Banco 2",
-      "cpf": "222.222.222-22",
-      "cnpj": "22.222.222/2222-22"
-    },
-    {
-      "id": "3",
-      "num_caso": "3",
-      "num_ccs": "33",
-      "num_conta": "33333",
-      "data_inicio": "13/10/2021",
-      "data_fim": "13/10/2021",
-      "nome_investigado": "Investigado 3",
-      "nome_banco": "Banco 3",
-      "cpf": "333.333.333-33",
-      "cnpj": "33.333.333/3333-33"
-    }
-  ],
-  "cargas_recebidas": [
-    {
-      "id": "1",
-      "num_caso": "111",
-      "num_banco": "1111",
-      "nome_banco": "Banco 1",
-      "data": "13/10/2021"
-    },
-    {
-      "id": "2",
-      "num_caso": "222",
-      "num_banco": "2222",
-      "nome_banco": "Banco 2",
-      "data": "13/10/2021"
-    },
-    {
-      "id": "3",
-      "num_caso": "333",
-      "num_banco": "3333",
-      "nome_banco": "Banco 3",
-      "data": "13/10/2021"
-    }
+      "id_livro": "2",
+      "id_cliente": "3",
+      "data_venda": "20/06/2022"
+    }    
   ]
 }
